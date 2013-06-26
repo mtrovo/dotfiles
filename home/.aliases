@@ -3,8 +3,16 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias hgg=" history | grep "
-alias psg="ps aux | grep "
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# apt-get
+alias agupd='sudo apt-get update'
+alias agupg='sudo apt-get upgrade'
+alias agi='sudo apt-get install'
+
+alias hgg=" history | ag "
+alias psg="ps aux | ag "
 alias search="apt-cache search "
 alias subl="sublime-text"
 alias clipboard="xclip -sel clip"
@@ -14,6 +22,18 @@ alias -g G='| ag'
 alias -g M='| less'
 alias -g L='| wc -l'
 alias -g ONE="| awk '{ print \$1}'"
+
+# IP
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ifconfig eth0 | ag inet | sed -E 's/^\s*(.*)$/\1/'"
+
+# View HTTP traffic
+alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
 
 # svn utils
 alias svnl="svn log $@ | perl -l40pe 's/^-+/\n/'"
