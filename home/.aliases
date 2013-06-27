@@ -14,7 +14,6 @@ alias agi='sudo apt-get install'
 alias hgg=" history | ag "
 alias psg="ps aux | ag "
 alias search="apt-cache search "
-alias subl="sublime-text"
 alias clipboard="xclip -sel clip"
 
 # end of line
@@ -41,3 +40,4 @@ alias svnl="svn log $@ | perl -l40pe 's/^-+/\n/'"
 # homeshick
 alias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"
 
+alias n.="nautilus ."
