@@ -12,3 +12,8 @@ Bundle 'croaky/vim-colors-github'
 Bundle 'danro/rename.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle "chrisbra/color_highlight.git"
+Bundle "vim-scripts/TagHighlight.git"
+
