@@ -11,9 +11,13 @@ set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
-
+" No toolbar
+set guioptions-=T
+" Use console dialogs
+set guioptions+=c
 " enable hidden buffers
 set hidden
+set hlsearch
 
 " enable syntax highlighting
 syntax on

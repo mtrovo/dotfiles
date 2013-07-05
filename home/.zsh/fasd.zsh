@@ -16,4 +16,6 @@ alias f='fasd -f' # file
 alias z='fasd_cd -d' # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # interactive directory jump
 
-alias subl='subl `fasd -a $1`'
+# sublime text
+alias std='d -e subl'
+alias stf='f -e subl'

@@ -10,6 +10,7 @@ alias sudo='sudo '
 alias agupd='sudo apt-get update'
 alias agupg='sudo apt-get upgrade'
 alias agi='sudo apt-get install'
+alias sysupd='agupd && agupg'
 
 alias hgg=" history | ag "
 alias psg="ps aux | ag "
@@ -41,3 +42,4 @@ alias svnl="svn log $@ | perl -l40pe 's/^-+/\n/'"
 alias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"
 
 alias n.="nautilus ."
+
