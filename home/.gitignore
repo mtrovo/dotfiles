@@ -1,2 +1,21 @@
-.vim/backups
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
 
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore tags created by etags and ctags
+TAGS
+tags
+
+# Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# SASS
+.sass-cache
