@@ -15,9 +15,12 @@ Bundle 'danro/rename.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'Raimondi/delimitMate'
+Bundle 'skwp/vim-conque'
+Bundle 'milkypostman/vim-togglelist'
 
 " Programming
 Bundle 'tpope/vim-rails'
+Bundle "skwp/vim-ruby-conque"
 Bundle 'tpope/vim-endwise'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
@@ -31,8 +34,14 @@ Bundle 'xenoterracide/html.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-markdown'
+Bundle 'suan/vim-instant-markdown'
 Bundle 'vim-scripts/groovy.vim'
 Bundle 'tfnico/vim-gradle'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+Bundle "scala/scala-dist", {'rtp': 'tool-support/src/vim'}
 
 
 " Visual improvements

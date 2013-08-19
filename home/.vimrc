@@ -27,6 +27,11 @@ if filereadable(expand("~/.vim/vundles.vim"))
   source ~/.vim/vundles.vim
 endif
 
+" Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
+if executable('ag')
+  set grepprg=ag\ --nogroup\ --nocolor
+endif
+
 " -------- Swap files
 set nobackup
 set nowritebackup
