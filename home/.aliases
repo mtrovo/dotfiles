@@ -29,7 +29,6 @@ alias localip="ifconfig eth0 | ag inet | sed -E 's/^\s*(.*)$/\1/'"
 
 # View HTTP traffic
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
-
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
 # Enhanced WHOIS lookups
@@ -41,5 +40,11 @@ alias svnl="svn log $@ | perl -l40pe 's/^-+/\n/'"
 # homeshick
 alias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"
 
+# Gradle
+alias gb="gradle build"
+alias gcb="gradle clean build"
+alias gdep="gradle dependencies"
+
 alias n.="nautilus ."
 
+alias fixescape="tr '\001' '|'"

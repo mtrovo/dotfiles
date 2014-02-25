@@ -27,6 +27,11 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/ctags.vim'
 Bundle 'vim-scripts/tComment'
 Bundle 'mattn/zencoding-vim'
+Bundle 'klen/python-mode'
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'Yggdroot/indentLine'
+Bundle 'tpope/vim-rvm'
+Bundle 'vim-ruby/vim-ruby'
 
 
 " Language syntax and snippets
@@ -39,8 +44,9 @@ Bundle 'vim-scripts/groovy.vim'
 Bundle 'tfnico/vim-gradle'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
+Bundle "SirVer/ultisnips"
+" Bundle "garbas/vim-snipmate"
+" Bundle "honza/vim-snippets"
 Bundle "scala/scala-dist", {'rtp': 'tool-support/src/vim'}
 
 
